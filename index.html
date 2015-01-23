@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Brad's Root Template - v2.0</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div class="wrap">
+			<header class="clfx">
+				<a class="logo" href="#">
+					<img src="http://placehold.it/216x53.png" class="logo">
+				</a>
+				<nav>
+					<a href="#">Business</a><!--
+				 --><a href="#">Careers</a><!--
+				 --><a href="#">Consulting</a>
+				</nav>
+				<form id="location-search">
+					<label>Find a Location</label>
+					<input type="text" placeholder="zip code">
+				</form>
+				<div class="login"><a href="#">Login</a></div>
+			</header>
+		</div><!-- end wrap -->
+
+		<script type="text/javascript">
+		$(document).ready(function(){
+			var winHeight = $(window).height();
+			//$(".wrap").height(winHeight);
+		});
+		</script>
+
+	</body>
+</html>
